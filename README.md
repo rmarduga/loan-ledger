@@ -1,2 +1,2 @@
-# loan-accounting-ledger
+# loan-ledger
 ledger system for loan accounting
