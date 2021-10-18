@@ -1,0 +1,33 @@
+{
+  "name": "loan-ledger",
+  "version": "1.0.0",
+  "description": "ledger system for loan accounting",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmarduga/loan-ledger.git"
+  },
+  "scripts": {
+    "start": "node server/app",
+    "start-client": "node client/app",
+    "test": ".\\node_modules\\.bin\\_mocha test"
+  },
+  "keywords": [
+    "web-api",
+    "ledger"
+  ],
+  "author": "Ruslan Mardugalliamov",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^8.0.1",
+    "eslint-plugin-mocha": "^9.0.0",
+    "mocha": "^9.1.3",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
